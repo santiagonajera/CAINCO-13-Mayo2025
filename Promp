@@ -1,0 +1,21 @@
+🧠 Prompt:
+Quiero un código en Python que proyecte las ventas semanales para las próximas 12 semanas usando la librería Prophet. 
+Tengo un archivo de Excel alojado en GitHub que contiene datos históricos de ventas semanales (en unidades) de 25 ítems desde enero de 2021 hasta mayo de 2025.
+
+Por ahora, quiero hacer la proyección solo para el Item_1. El archivo tiene una columna llamada "Fecha" y columnas "Item_1" a "Item_25".
+
+✅ El código debe:
+Descargar el archivo desde el siguiente enlace:
+https://github.com/santiagonajera/CAINCO-13-Mayo2025/raw/refs/heads/main/ventas_items_cainco.xlsx
+
+Instalar prophet si no está instalado.
+
+Preparar y entrenar el modelo considerando estacionalidad semanal y anual.
+
+Generar una gráfica clara que diferencie visualmente los datos históricos de la proyección futura.
+
+Incluir el intervalo de confianza (bandas).
+
+Marcar el punto de corte entre histórico y futuro.
+
+Quiero un gráfico profesional y entendible, ideal para presentaciones.
